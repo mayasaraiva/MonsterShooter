@@ -9,7 +9,8 @@ class Menu:
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self, ):
-        #colocar musica aqui
+        pygame.mixer_music.load('./asset/select_menu.wav')
+        pygame.mixer_music.play(-1)
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
             pygame.display.flip()
