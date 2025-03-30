@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import pygame.image
 from pygame import Surface, Rect
-from pygame.draw_py import RIGHT_EDGE
 from pygame.font import Font
 
 from code.Const import WIN_WIDTH, RED_COLOR, MENU_OPTION, NUDE_COLOR, LIGHT_GREEN
